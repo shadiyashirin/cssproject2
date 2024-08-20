@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 .header{
     margin-left: 70px;
     margin-right: 70px;
@@ -321,7 +325,7 @@ nav{
 }
 
 
-.icon{
+.iconservice{
     height: 50px;
     width: 50px;
 }
