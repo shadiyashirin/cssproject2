@@ -717,6 +717,13 @@ align-items: center;
     flex-direction: column;
 }
 
+.btn-arr{
+    height: 100px;
+    width: 100px;
+    border-width: 10px;
+    font-size: 50px;
+}
+
 .images{
     display: flex;
     flex-direction: column;
