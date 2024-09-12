@@ -7,26 +7,24 @@
     <title>project2</title>
 </head>
 <body>
-    <div class="header">
+        <nav>
             <div class="logo n1">
                 <img class="icon" src="./images/air-balloon (1).png">
                 <span><h4>AeroVision</h4></span>
             </div>
-            <div class="navi n1">
-                <ul>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Services</li>
-                    <li>Blog</li>
-                    <li>Contact Me</li>
-                </ul>
-                <div class="chat n1">
-                    <button class="btn" type="button">Let's Chat</button>
-                </div>
-                
+            <ul id="menulist">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li class="chat"><button class="btn" type="button">Let's Chat</button></li>
+            </ul>
+            <div class="menu">
+                <button onclick="myFun()"><img src="./images/manu.png"></button>
             </div>
-            <img class="menu" src="./images/manu.png" alt="menubar">
-    </div>
+        </nav>
+    
 
 
 
@@ -178,8 +176,8 @@
             <h1>The Trust From Clients</h1>
         </div>
         <div class="arrows2">
-            <button class="btn-arr">⬅</button>
-            <button class="btn-arr"  style=" transform: rotate(180deg)">⬅</button>
+            <button class="btn-arr" onclick="">⬅</button>
+            <button class="btn-arr" style=" transform: rotate(180deg)">⬅</button>
         </div>
         <div class="clients">
             <div class="clientwhit cc">
@@ -279,7 +277,7 @@
         </div>
     </div>
 
-    
+    <script src="index.js" charset="utf-8"></script>
 
 </body>
 </html>
