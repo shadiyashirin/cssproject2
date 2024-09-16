@@ -440,6 +440,7 @@ align-items: center;
     padding-bottom: 50px;
 }
 
+
 .clientblue{
     border-style: solid;
     border-color: #f7f7f7;
@@ -554,7 +555,7 @@ input[type="text"], input[type="email"]{
 }
 
 
-@media (max-width:400px)
+@media (max-width:480px)
 {
 
 body{
@@ -749,7 +750,7 @@ align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     flex-shrink: 0;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .bottom{
