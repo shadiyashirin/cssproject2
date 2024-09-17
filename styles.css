@@ -139,7 +139,6 @@ align-items: center;
     display: flex;
     text-align: center;
     justify-content: space-around;
-    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #f7f7f7;
@@ -559,7 +558,6 @@ input[type="text"], input[type="email"]{
 {
 
 body{
-    width: 100%;
     overflow-x: hidden;
 }
 
@@ -569,6 +567,7 @@ nav ul{
     top: 70px;
     left: 0;
     right: 0;
+    width: 100%;
     flex-direction: column;
     text-align: center;
     background-color: #3498db;
@@ -631,6 +630,7 @@ nav ul{
     flex-direction: column;
     row-gap: 50px;
     align-items: center;
+    
 }
 
 .software img{
@@ -683,20 +683,28 @@ nav ul{
 }
 
 
-
 .ser{
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
+.slides{
+    overflow-x: auto;
+}
+
+.ss{
+    width: 100%;
+    font-size: 50px;
+    text-align: left;
+    }
+
 .mile{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-left: 50px;
+    margin-left: 60px;
+    margin-right: 10px;
 }
 
 .features{
@@ -759,11 +767,7 @@ align-items: center;
 }
 
 
-.ss{
-width: 100%;
-font-size: 50px;
-text-align: left;
-}
+
 
 .iconservice{
     width: 30%;
@@ -781,11 +785,12 @@ text-align: left;
 }
 
 .pp{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: bold;
+    height: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 40px;
 }
 
 .clients{
