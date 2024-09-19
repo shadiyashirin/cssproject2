@@ -7,5 +7,3 @@ function myFun(){
         x.style.display ="none";
     }
 }
-
-
